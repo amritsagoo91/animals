@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import AnimalShow from './AnimalShow'
 import './App.css'
+
+function test() {
+  return null;
+}
 function getRandomAnimal() {
   const animals = ['bird', 'cat', 'cow', 'dog', 'gator', 'horse'];
   return animals[Math.floor(Math.random() * animals.length)];
   console.log(getRandomAnimal());
 }
-
+//comments
 function App() {
   const [animals, setAnimals] = useState([]);
 
